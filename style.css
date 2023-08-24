@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+.coming-soon{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.countdown{
+    display: flex;
+    justify-content: space-around;
+    gap: 90px;
+}
+.coming-soon h2{
+    font-size: 3rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+.count-img{
+    height: 50vh;
+}
+.countdown h3{
+    font-size: 1rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+.day,.hour,.minute,.second{
+    font-size: 2rem !important;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700 !important;
+}
